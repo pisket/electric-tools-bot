@@ -1,0 +1,36 @@
+{
+  "name": "getcardapibot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon build/src/app.js",
+    "build": "cd .. && cd frontend && npm link @angular/cli && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express-serve-static-core": "^4.17.32",
+    "@types/express-session": "^1.17.5",
+    "@types/pg": "^8.6.6",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "morgan": "^1.10.0",
+    "node-telegram-bot-api": "^0.60.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "telegraf": "^4.11.2",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.15",
+    "@types/morgan": "^1.9.4",
+    "@types/node": "^18.11.18",
+    "@types/node-telegram-bot-api": "^0.57.6"
+  }
+}
